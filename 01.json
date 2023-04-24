@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "28e5c6f7-4fd8-4289-8e36-1a16bb39b031",
+		"name": "DesafioDBC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22739710"
+	},
+	"item": [
+		{
+			"name": "CriarNovoUsuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Julio de Lemos\",\n    \"job\": \"QA\",\n    \"id\": \"1905\",\n    \"createdAt\": \"2023-04-24T16:27:28.209Z\"\n}"
+				},
+				"url": {
+					"raw": "https://reqres.in/api/user",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
